@@ -1,1 +1,24 @@
 // Navigation code here
+.top-bar{
+    display: flex;
+    .flex-mix(column, center);
+    background: @nav-bg;
+    border: 1px solid @nav-border;
+    h1{
+        text-align: center;
+        font-size: 4rem;
+        padding: 1% 0;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 1% 0; 
+        a{
+            padding: 0 2%;
+            text-decoration: none;
+            color: @nav-font;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 1.6rem;
+        }
+    }
+}
